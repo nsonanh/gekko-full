@@ -499,12 +499,14 @@ config['tulip-adx'] = {
   }
 }
 
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//                      NEURAL NET LOCATION
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// //                      NEURAL NET LOCATION
+// // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-// ensure you have created gekko/nn_files folder
-config.filewriter = { nnfilepath: __dirname + "/nn_files/" };
+// // ensure you have created gekko/nn_files folder
+// config.filewriter = {
+//   nnfilepath: __dirname + "/nn_files/"
+// };
 
 // For consoles setup uncomment the following entry
 /*
