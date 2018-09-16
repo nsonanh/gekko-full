@@ -6,7 +6,8 @@ var config = require ('../core/util.js').getConfig();
 var SMMA = require('./indicators/SMMA.js');
 
 
-var nndatafile = config.filewriter.nnfilepath+'trained.js'; // the nn state needs to be saved between runs this is the location for it
+// var nndatafile = config.filewriter.nnfilepath + 'trained.js'; // the nn state needs to be saved between runs this is the location for it
+var nndatafile = 'nn_files/trained.js';
 
 var strategy = {
   // stores the candles
